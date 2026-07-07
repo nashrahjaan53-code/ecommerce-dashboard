@@ -7,10 +7,10 @@ An interactive sales analytics dashboard analyzing e-commerce transaction data �
 
 ---
 
-## 📸 Dashboard Preview
+##  Dashboard Preview
 
 ![Dashboard Screenshot](./dashboard-screenshot.png)
-*(Add your screenshot here — drag the image into this repo and update the filename above)*
+
 
 ---
 
@@ -34,7 +34,7 @@ An interactive sales analytics dashboard analyzing e-commerce transaction data �
 
 ---
 
-## 📊 What's on the Dashboard
+##  What's on the Dashboard
 
 - **KPI Cards**: Total Revenue, Total Quantity Sold, Total Profit, Average Order Value
 - **Sales by State** — geographic performance breakdown
@@ -47,12 +47,10 @@ An interactive sales analytics dashboard analyzing e-commerce transaction data �
 
 ---
 
-## 🛠️ Tools & Techniques
+##  Tools & Techniques
 
 - **Power BI** — data modeling, relationships, report design
 - **DAX** — calculated measures for KPIs (e.g. `SUM`, `CALCULATE`, ratio/percentage measures)
-- **Data Cleaning** — *(mention here if you used Power Query, Excel, or Python/SQL to clean data before loading)*
-
 ---
 
 ## Files
