@@ -1,68 +1,214 @@
-# E-Commerce Sales Dashboard (Power BI)
+<div align="center">
 
-An interactive sales analytics dashboard analyzing e-commerce transaction data — built to answer real business questions about revenue drivers, customer behavior, and sales timing, not just display numbers.
+# 📊 E-Commerce Sales Dashboard
+
+### Business Intelligence Dashboard for Retail Sales Analytics
+
+*A production-inspired Power BI dashboard transforming raw e-commerce transactions into interactive business intelligence through KPI monitoring, customer analytics, geographic insights, and profitability analysis.*
 
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![DAX](https://img.shields.io/badge/DAX-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
+![Business Intelligence](https://img.shields.io/badge/Business-Intelligence-success?style=for-the-badge)
+![Status](https://img.shields.io/badge/Project-Completed-brightgreen?style=for-the-badge)
+
+</div>
 
 ---
 
-##  Dashboard Preview
+# 📖 Overview
 
-![Dashboard Screenshot](./dashboard-screenshot.png)
+Business leaders don't need more spreadsheets—they need clear, actionable insights.
 
+This project demonstrates how Power BI can transform raw e-commerce transaction data into an executive-ready dashboard that enables stakeholders to monitor sales performance, identify revenue drivers, understand customer behavior, and support data-driven business decisions.
 
----
-
-##  Business Questions This Answers
-
-- Which products and customers actually drive revenue — and does it match assumptions?
-- When do customers actually shop, and when does cart abandonment happen?
-- Do returning customers behave differently than new ones?
-- Which states, categories, and payment methods contribute most to sales?
+The dashboard combines interactive visualizations, KPI tracking, and business analytics to provide a complete view of retail performance.
 
 ---
 
-##  Key Insights
+# 📸 Dashboard Preview
 
-- **Total Revenue**: ₹161K across the reporting period, with **26K profit** generated on **2,008 units sold** — an average order value of **₹44.21K**
-- **Sales are geographically concentrated** — Maharashtra and Madhya Pradesh lead among Indian states, with Delhi and Uttar Pradesh close behind
-- **Digital payments dominate**: COD and UPI together account for the majority of transaction volume, with EMI and Credit Card as smaller but present segments
-- **Printers and Phones are the top profit-driving sub-categories**, followed by Accessories, Bookcases, and Sarees
-- **A small group of top customers** (led by Harivansh) contribute disproportionately to total revenue — a Pareto-style concentration worth flagging to stakeholders
-- **Profit shows a declining trend from January to March**, which is worth investigating further (seasonality? one-time bulk orders in January?)
+<p align="center">
+<img src="./dashboard-screenshot.png" width="100%">
+</p>
 
 ---
 
-##  What's on the Dashboard
+# ✨ Dashboard Features
 
-- **KPI Cards**: Total Revenue, Total Quantity Sold, Total Profit, Average Order Value
-- **Sales by State** — geographic performance breakdown
-- **Payment Mode Distribution** — COD vs UPI vs Card vs EMI split
-- **Profit by Month** — trend over time
-- **Profit by Sub-Category** — product-level profitability
-- **Top Customers by Revenue**
-- **Category-wise Quantity Distribution**
-- Interactive quarter-based filtering (Qtr 1–4)
+## 📈 Executive KPIs
 
----
+Monitor business performance through key metrics including:
 
-##  Tools & Techniques
-
-- **Power BI** — data modeling, relationships, report design
-- **DAX** — calculated measures for KPIs (e.g. `SUM`, `CALCULATE`, ratio/percentage measures)
----
-
-## Files
-
-- `ecommerce-sales-dashboard.pbix` — the Power BI file
+- Total Revenue
+- Total Profit
+- Total Quantity Sold
+- Average Order Value
 
 ---
 
-##  How to View
+## 🌍 Geographic Performance
 
-1. Download `ecommerce-sales-dashboard.pbix`
-2. Open in [Power BI Desktop](https://powerbi.microsoft.com/desktop/) (free)
-3. Interact with the quarter slicers to explore different time periods
+Analyze sales across different Indian states to identify:
+
+- High-performing regions
+- Revenue concentration
+- Regional growth opportunities
 
 ---
+
+## 💳 Payment Analytics
+
+Understand customer purchasing preferences through:
+
+- Cash on Delivery
+- UPI
+- Credit Card
+- EMI
+
+---
+
+## 📦 Product Performance
+
+Evaluate:
+
+- Most Profitable Categories
+- Top Performing Products
+- Revenue Contribution
+- Profit Distribution
+
+---
+
+## 👥 Customer Insights
+
+Identify:
+
+- High-value customers
+- Customer contribution
+- Revenue concentration
+- Repeat purchasing behaviour
+
+---
+
+## 📅 Time-Series Analysis
+
+Track business performance over time through:
+
+- Monthly Profit Trends
+- Revenue Changes
+- Seasonal Performance
+
+---
+
+# 📊 Key Business Insights
+
+### 💰 Revenue Performance
+
+- ₹161K Total Revenue
+- ₹26K Total Profit
+- 2,008 Units Sold
+- ₹44.21K Average Order Value
+
+---
+
+### 🌍 Geographic Insights
+
+Sales are concentrated across a few major states, with Maharashtra and Madhya Pradesh contributing the highest revenue, followed closely by Delhi and Uttar Pradesh.
+
+---
+
+### 💳 Customer Payment Behaviour
+
+Digital payment methods dominate overall transactions, with Cash on Delivery and UPI accounting for the largest share of purchases.
+
+---
+
+### 📦 Product Intelligence
+
+Printers and Phones generate the highest profit, while Accessories, Bookcases, and Sarees continue to contribute significantly to overall business performance.
+
+---
+
+### 👥 Customer Analysis
+
+A relatively small group of customers contributes a disproportionately large share of total revenue, reflecting a classic Pareto distribution and highlighting opportunities for customer retention strategies.
+
+---
+
+### 📈 Profit Trend
+
+Profitability declines steadily between January and March, indicating potential seasonal effects or changing purchasing behaviour that warrants further investigation.
+
+---
+
+# 🛠 Tools & Technologies
+
+| Category | Technology |
+|-----------|------------|
+| Dashboard | Power BI |
+| Language | DAX |
+| Data Modeling | Power Query |
+| Visualization | Interactive Charts |
+| Analytics | Business Intelligence |
+
+---
+
+# 📈 Dashboard Components
+
+| Dashboard Element | Purpose |
+|-------------------|----------|
+| KPI Cards | Executive performance overview |
+| Sales by State | Geographic analysis |
+| Payment Distribution | Customer payment behaviour |
+| Monthly Profit | Trend analysis |
+| Profit by Category | Product profitability |
+| Top Customers | Customer segmentation |
+| Quantity Sold | Sales performance |
+
+---
+
+# 🎯 Business Questions Addressed
+
+The dashboard helps answer questions such as:
+
+- Which products generate the highest profit?
+- Which customers contribute the most revenue?
+- Which regions drive business growth?
+- Which payment methods are most popular?
+- How does profitability change over time?
+- Are sales concentrated among a small customer base?
+- Which product categories deserve additional investment?
+
+---
+
+# 🚀 Skills Demonstrated
+
+- Power BI Dashboard Development
+- Interactive Report Design
+- DAX Calculations
+- Business Intelligence
+- KPI Development
+- Customer Analytics
+- Sales Analytics
+- Geographic Analysis
+- Executive Reporting
+- Data Storytelling
+
+---
+
+# 📂 Repository Structure
+
+```
+E-Commerce-Sales-Dashboard
+│
+├── Dashboard.pbix
+├── dashboard-screenshot.png
+└── README.md
+```
+
+---
+
+# 💡 Why This Project?
+
+The objective of this project was to move beyond static reporting and build an interactive dashboard capable of supporting real business decisions.
+
+Rather than simply visualizing sales data, the dashboard focuses on uncovering customer behaviour, identifying profitability drivers, monitoring regional performance, and communicating actionable insights through intuitive visualizations suitable for business stakeholders.
